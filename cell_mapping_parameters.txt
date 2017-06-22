@@ -1,0 +1,69 @@
+##################################################
+## Parameters for step 2 of CUBIC-atlas mapping ##
+##################################################
+#
+#
+# Note: to avoid any problem, please do not
+#        change the file structure, only the 
+#        parameter values
+#
+#
+##########
+# Folder #
+##########
+#
+# Output folder directory
+/home/beowulf/Desktop/Murakami/activity_map/Yukinaga_data/test2/Result
+#
+# CUBIC-Atlas including folder
+/home/beowulf/Desktop/Murakami/activity_map/Yukinaga_data/atlas_folder
+#
+#
+##########################
+# Image size information #
+##########################
+#
+# Image size information
+/home/beowulf/Desktop/Murakami/activity_map/Yukinaga_data/test2/Compress/size_info.csv
+#
+#
+###########################
+# Registration parameters #
+###########################
+#
+# The optimization will be performed over three resolution with a maximum of "L" iterations at the coarsest level, "M" at the next coarsest and "N" at the full resolution. For detail, please refere ANTS document (Avants et al., 2011, URL:http://scil.dinf.usherbrooke.ca/wp-content/courses/imn530/ants.pdf). We recommend L = 300, M = 100 and N = 10.
+#
+# L
+1
+# M
+1
+# N
+1
+#
+#########################################################
+# Cell coordinates and compressed nucleus stained image #
+#########################################################
+#
+# Compressed nucleus stained image (recommended multi-page tif)
+/home/beowulf/Desktop/Murakami/activity_map/Yukinaga_data/test2/Compress
+#
+# CSV file containing list of cell coordinates
+/home/beowulf/Desktop/Murakami/activity_map/Yukinaga_data/test2/Coordinate
+#
+# Name of column corresponds to X coordiante
+X 
+# Name of column corresponds to Y coordiante
+Y
+# Name of column corresponds to Z coordiante
+Slice
+# Name of column corresponds to additional information 1
+IntDen
+# Name of column corresponds to additional information 2
+Area
+# Name of column corresponds to additional information 3
+#
+# Name of column corresponds to additional information 4
+#
+#########
+## END ##
+#########
