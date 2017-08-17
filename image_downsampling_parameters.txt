@@ -1,0 +1,33 @@
+##################################################
+## Parameters for step 1 of CUBIC-atlas mapping ##
+##################################################
+#
+#
+# Note: to avoid any problem, please do not
+#        change the file structure, only the 
+#        parameter values
+#
+#
+##########
+# Folder #
+##########
+#
+# Parent folder of the nucleus stained images
+/home/Murakami/activity_map/Nucleus
+#
+# Output folder directory
+/home/Murakami/activity_map/Compress
+#
+#
+#####################
+# Image Compression #
+#####################
+#
+# xy compression ratio
+6.0
+# z compression ratio
+3.0
+#
+#########
+## END ##
+#########
