@@ -34,11 +34,11 @@
 # The optimization will be performed over three resolution with a maximum of "L" iterations at the coarsest level, "M" at the next coarsest and "N" at the full resolution. For detail, please refer ANTs document (Avants et al., 2011, URL:http://scil.dinf.usherbrooke.ca/wp-content/courses/imn530/ants.pdf). We recommend L = 300, M = 100 and N = 10.
 #
 # L
-1
+300
 # M
-1
+100
 # N
-1
+10
 #
 #########################################################
 # Cell coordinates and compressed nucleus stained image #
