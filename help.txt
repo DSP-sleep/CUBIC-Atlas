@@ -22,7 +22,7 @@ The names of subfolders MUST BE the same as the names of subfolders in 'Nucleus'
 We recommend using a similar structure, but this can be modified in the parameter files.
 
 
-STEP 0: cell detection in your target image
+STEP 0: cell detection in your image
 
 Before starting cell-mapping, you have to prepare the 3D coordinates of the cells of 'Nucleus' images. 
 
