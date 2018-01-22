@@ -44,7 +44,7 @@ To run the script, type python image_downsampling.py <file>
  where <file> is the name of the file giving all required parameters
 
 The script takes 4 parameters.
-An example is given in image_compression_paramters.txt 
+An example is given in image_downsampling_paramters.txt 
 Lines starting with # are comments to help understand the file structure, and are ignored by the script.
 
 For the "files" parameters, please note that:
