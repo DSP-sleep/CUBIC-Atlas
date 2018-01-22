@@ -3,9 +3,8 @@
 ##################################################
 #
 #
-# Note: to avoid any problem, please do not
-#        change the file structure, only the 
-#        parameter values
+# Note: to avoid any problems, please do not
+#        change the structure of the file
 #
 #
 ##########
@@ -40,11 +39,11 @@
 # N
 10
 #
-#########################################################
-# Cell coordinates and compressed nucleus stained image #
-#########################################################
+##############################################################
+# Cellular coordinates and downsampled nucleus stained image #
+##############################################################
 #
-# Compressed nucleus stained image (recommended multi-page tif)
+# Downsampled nucleus stained image (recommended multi-page tif)
 /home/Murakami/activity_map/Compress
 #
 # CSV file containing list of cell coordinates
