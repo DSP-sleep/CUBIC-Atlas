@@ -3,9 +3,8 @@
 ##################################################
 #
 #
-# Note: to avoid any problem, please do not
-#        change the file structure, only the 
-#        parameter values
+# Note: to avoid any problems, please do not
+#        change the structure of the file. 
 #
 #
 ##########
