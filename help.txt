@@ -6,8 +6,8 @@
 
 REQUIREMENTS
 
-In the following, we assume that the required softwares (ANTS, openCV-python and fsl) are already installed, and accessible via the command line.
-For help with a specific software, please refer to that software's website.
+In the following, we assume that the required software (ANTS, fsl) and library (openCV-python, numpy) are already installed, and accessible via the command line.
+Python 2 (not Python 3) enviroment is required.
 
 Prior to running the codes, please download CUBIC-Atlas from our website (http://cubic-atlas.riken.jp/).
 
@@ -26,12 +26,12 @@ STEP 0: cell detection in your target image
 
 Before starting cell-mapping, you have to prepare the 3D coordinates of the cells of 'Nucleus' images. 
 
-Currently, there are no universal cell-detection algorighms which allow robust detections regardless of the types of labels or qualities of images.
+Currently, there are no universal cell-detection algorighm which allow robust detections regardless of the types of labels or qualities of images.
 Therefore, the users must develop the cell-detection algorithm by tuning the existing algorithms or making user-defined customized algorithms.
 As the reference, we prepared macro code of ImageJ (macro_detection.txt). The detail of detection algorithm is described in our previous paper (Tatsuki et al., 2016, Neuron).
 
 
-You can also prepare coordinate data by mannual detection or your own programs.
+You can also prepare coordinate data by manual detection or your own programs.
 The coordinates should be expressed as pixel unit of original image, and must be stored as csv file with header information (e.g. x y z). 
 
 
@@ -60,7 +60,7 @@ The resulting compressed images and size information (txt file) are required at 
 
 STEP 2: cell_mapping.py
 
-In this step, we annotate the detected cells parared in STEP 0 through registration to CUBIC-Atlas
+In this step, we annotate the detected cells prepared in STEP 0 through registration to CUBIC-Atlas
 The registration relies on ANTs.
 
 To run the script, type: python cell_mapping.py <file>
@@ -69,6 +69,6 @@ To run the script, type: python cell_mapping.py <file>
 An example of parameter file is given in cell_mapping_parameters.txt. 
 
 The output returns 
-registration result (regisered.tif), annotated coordinates (result.csv), and summary information (regional_result.csv)
+registration result (registered.tif), annotated coordinates (result.csv), and summary information (regional_result.csv)
 If your coordinate file includes additional information (e.g. intensity, area), the summary information also returns you
 regionally averaged additional information.
